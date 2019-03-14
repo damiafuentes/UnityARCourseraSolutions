@@ -1,0 +1,14 @@
+
+While using an Android phone you can ouput things to the adb console with:
+
+Debug.Log("Whatever you want to say")
+
+Then, to see the logs in your terminal:
+
+adb logcat
+
+But that outputs a lot of things that we don't want. So a way to go is to run the following command:
+
+adb logcat -v time | python logcat_unity.py
+
+where you can find logcat_unity.py in this directory.
