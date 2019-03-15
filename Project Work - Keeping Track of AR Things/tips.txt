@@ -1,4 +1,4 @@
-
+1. 
 While using an Android phone you can ouput things to the adb console with:
 
 Debug.Log("Whatever you want to say")
@@ -12,3 +12,8 @@ But that outputs a lot of things that we don't want. So a way to go is to run th
 adb logcat -v time | python logcat_unity.py
 
 where you can find logcat_unity.py in this directory.
+
+
+2. 
+You must link your texts and AR managers with your scripts as follows:
+https://www.youtube.com/watch?v=qwZhT24Ribc
