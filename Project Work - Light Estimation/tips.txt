@@ -1,0 +1,1 @@
+Light Estimation is not anymoe on AR Session. Now you have to go to AR Camera from AR Session Origin and add a new component named AR Camera Options (Script). There you will be able to enable the Light Estimation.
